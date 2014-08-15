@@ -14,6 +14,10 @@ background: url(cat.jpg) no-repeat center center fixed;
 background-color:#cccccc;
 }
 
+::selection {
+  background: #cccccc;
+}
+
 #navigation {
 	position: fixed;
 	top: 0;
@@ -90,5 +94,4 @@ background-color:#cccccc;
 
 #content a:hover {
 	color: #4DDBFF;
-	text-decoration: underline;
 }
