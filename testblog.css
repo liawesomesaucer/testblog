@@ -95,3 +95,9 @@ background-color:#cccccc;
 #content a:hover {
 	color: #4DDBFF;
 }
+
+#centered {
+	font-style: italic;
+	text-align: center;
+
+}
