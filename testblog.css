@@ -151,6 +151,7 @@ a:link, a:visited, a:hover, a:active { color: #fff;
 	/*margin-bottom: 10px;*/
 	/*font color*/
 	color: #fff;
+	overflow: auto;
 }
 
 #topbox {
