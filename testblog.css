@@ -29,7 +29,9 @@ a:link, a:visited, a:hover, a:active { color: #fff;
 	color: #ffffff;
 	height: 40px;
 	text-align: center;
-	padding-top: 0px;
+	margin: 0px;
+	margin-left: -2.5%;
+	padding:0px;
 	padding-bottom: 5px;
 	/* Adds shadow to the bottom of the bar */
 	-webkit-box-shadow: 0px 0px 8px 0px #000000;
@@ -43,9 +45,9 @@ a:link, a:visited, a:hover, a:active { color: #fff;
 #navigation a {
 	font: 18px/20px Centaur, "Times New Roman", serif;
 	font-size: 18px;
-	padding-left: 0px;
+	padding-left: 50px;
 	padding-right: 50px;
-	list-style-type:none;
+	/*list-style-type:none;*/
 	text-align: left;
 }
 
@@ -107,7 +109,7 @@ a:link, a:visited, a:hover, a:active { color: #fff;
 #contentbox {
 	margin: auto;
 	padding: 20px;
-	padding-top: 28px;
+	padding-top: 50px;
 	width: 580px;
 	background-color: rgba(0,0,0,0.5);
 	-webkit-box-shadow: 0px 0px 8px 0px #000000;
@@ -117,6 +119,7 @@ a:link, a:visited, a:hover, a:active { color: #fff;
 	/*font color*/
 	color: #fff;
 }
+
 
 #sidebox {
 	/*margin: left;*/
@@ -199,4 +202,9 @@ a:link, a:visited, a:hover, a:active { color: #fff;
 #footer {
 	text-align: center;
 	font: 20px Centaur, "Times New Roman", serif;
+}
+
+.foot:hover {
+	color: #FFFFFF !important;
+	text-decoration: underline;
 }
